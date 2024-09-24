@@ -41,6 +41,3 @@ Thumbs.db
 # TypeScript
 *.tsbuildinfo
 
-# Tailwind
-public/styles.css
-src/styles.css
