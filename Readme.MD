@@ -90,11 +90,15 @@ Cette commande :
 
 ### Développement (avec surveillance automatique)
 
+##### Dans un terminal: 
+
 Pour démarrer un environnement de développement en mode **watch** (surveillance des fichiers TypeScript et CSS), exécutez :
 
 ```bash
 pnpm run build
 ```
+
+##### Dans un autre terminal: 
 
 Cela compile automatiquement les fichiers TypeScript et CSS à chaque modification. Ensuite, lancez un serveur local pour voir les changements en direct dans le navigateur en exécutant :
 
