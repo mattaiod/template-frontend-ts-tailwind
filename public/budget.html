@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="test.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="transaction.html">Transaction</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button id="openModal">Ajouter un budget</button>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <form action="">
+            <label for="category">Catégorie</label>
+            <select name="category" id="category">
+                <option value=""></option>
+            </select>
+            <label for="budget">Budget</label>
+            <input type="number" name="budget" id="budget">
+            <input type="checkbox" name="alert" id="alert">
+            <label for="alert">Recevoir une alerte</label>
+          </form>
+        </div>
+      </div>
+    <script type="module" src="../dist/budget.js"></script>
+</body>
+</html>
