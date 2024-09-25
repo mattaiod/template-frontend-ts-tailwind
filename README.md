@@ -55,7 +55,7 @@ mon-projet/
 │   ├── index.html         # Page principale HTML
 │   ├── about.html         # Exemple de page supplémentaire HTML
 │   ├── styles.css         # Fichier CSS généré après compilation de src/styles.css
-├── postcss.config.js      # Configuration de PostCSS pour Tailwind
+├── postcss.config.cjs      # Configuration de PostCSS pour Tailwind
 ├── tailwind.config.js     # Configuration de Tailwind CSS
 ├── tsconfig.json          # Configuration de TypeScript
 ├── package.json           # Fichier de configuration des scripts et dépendances
@@ -69,7 +69,7 @@ mon-projet/
 - **`src/styles.css`** : Fichier source contenant les directives Tailwind CSS.
 - **`public/index.html`** : Page principale HTML qui charge le JavaScript généré par TypeScript.
 - **`public/about.html`** : Exemple d'une page HTML supplémentaire, avec navigation.
-- **`postcss.config.js`** : Configuration de PostCSS pour gérer Tailwind CSS.
+- **`postcss.config.cjs`** : Configuration de PostCSS pour gérer Tailwind CSS.
 - **`tailwind.config.js`** : Configuration Tailwind qui permet d'ajuster les fichiers à surveiller et personnaliser les styles.
 
 ## Scripts de build et de développement
