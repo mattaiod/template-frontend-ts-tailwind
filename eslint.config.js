@@ -56,8 +56,7 @@ export default [
       yoda: "error",
       "explicit-function-return-type": "off",
       "sort-keys": "off",
-      "no-undef-init": "off"
+      "no-undef-init": "off",
     },
   },
 ];
-
